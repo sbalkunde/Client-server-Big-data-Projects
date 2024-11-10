@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/vagrant/sbalkunde/itmd-521-01/labs/week_05/scala/target/scala-2.12/main-scala-assignment_02_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vagrant/sbalkunde/itmd-521-01/labs/week_05/scala/target/scala-2.12/classes/main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vagrant/sbalkunde/itmd-521-01/labs/week_05/scala/target/scala-2.12/classes/main/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/scala/assignment_02[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vagrant/sbalkunde/itmd-521-01/labs/week_05/scala/target/scala-2.12/classes/main/scala/assignment_02[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/scala/assignment_02/assignment_02.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vagrant/sbalkunde/itmd-521-01/labs/week_05/scala/target/scala-2.12/classes/main/scala/assignment_02/assignment_02.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/scala/assignment_02/assignment_02$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vagrant/sbalkunde/itmd-521-01/labs/week_05/scala/target/scala-2.12/classes/main/scala/assignment_02/assignment_02$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

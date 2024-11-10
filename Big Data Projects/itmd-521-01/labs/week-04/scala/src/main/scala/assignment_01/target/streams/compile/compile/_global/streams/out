@@ -1,0 +1,91 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:11:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder().appName("DivvyTripsScala").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:31:18: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m    val schema = StructType(Array(StructField("trip_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:31:35: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    val schema = StructType(Array(StructField("trip_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:31:58: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m    val schema = StructType(Array(StructField("trip_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:32:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("starttime", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:32:32: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("starttime", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:33:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("stoptime", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:33:31: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("stoptime", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:34:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("bikeid", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:34:29: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("bikeid", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:35:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("tripduration", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:35:35: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("tripduration", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:36:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("from_station_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:36:38: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("from_station_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:37:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("from_station_name", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:37:40: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("from_station_name", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:38:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("to_station_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:38:36: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("to_station_id", IntegerType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:39:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("to_station_name", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:39:38: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("to_station_name", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:40:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("usertype", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:40:31: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("usertype", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:41:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("gender", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:41:29: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("gender", StringType, true),[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:42:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("birthyear", IntegerType, true)))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/sbalkunde/itmd-521-01/labs/week-04/scala/src/main/scala/assignment_01/assignment_01.scala:42:32: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("birthyear", IntegerType, true)))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m30 errors found[0m
